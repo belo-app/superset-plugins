@@ -108,7 +108,6 @@ dist
 
 # build
 esm
-lib
 
 # Other
 .DS_Store
