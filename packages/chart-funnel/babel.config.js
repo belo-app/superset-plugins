@@ -12,10 +12,6 @@ const config = getConfig({
   },
 });
 
-config.plugins = [
-  ["babel-plugin-transform-dev", { evaluate: false }],
-  ["babel-plugin-typescript-to-proptypes", { loose: true }],
-  ["@babel/plugin-proposal-class-properties", { loose: true }],
-];
+config.plugins = [["@babel/plugin-proposal-class-properties", { loose: true }]];
 
 module.exports = config;
